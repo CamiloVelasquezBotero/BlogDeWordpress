@@ -1,0 +1,167 @@
+.main,
+.sidebar
+	.titulo-seccion
+		h3
+			font-family: $font-family2
+			font-size: 1.5em //24px
+			line-height: 1.5em //24px
+			font-weight: normal
+			color: $gris_oscuro
+			padding-bottom: 0.62em //10px
+			border-bottom: 4px solid $verde
+			margin-bottom: 1.25em //20px
+
+.main
+	.titulo-seccion
+		> div
+			padding: 0
+	.single-post
+		margin-bottom: 1.25em //20px
+		.post
+			padding: 0
+			.contenedor
+				background: #fff
+				-webkit-box-shadow:  0px 0px 5px 0px rgba(0,0,0,0.3)
+				box-shadow:  0px 0px 5px 0px rgba(0,0,0,0.3)
+				.texto
+					img
+						max-width: 100%
+						vertical-align: top
+						margin: 20px 0
+			.thumb
+				img
+					vertical-align: top
+					width: 100%
+					height: auto
+			.info
+				padding: 1.25em //20px
+				.titulo
+					line-height: 1.125em //18px
+					margin-bottom: 1.25em //20px
+					a
+						font-size: 1.125em //18px
+						color: $gris_oscuro
+				.fecha
+					color: $gris_claro
+					font-size: 0.875em //14px
+					margin-bottom: 1.25em //20px
+				.texto
+					color: $texto
+					font-size: 1em //16px
+					line-height: 1.75em //28px
+					p
+						margin-bottom: 1em //16px
+				.categorias
+					ul
+						list-style: none
+						li
+							display: inline-block
+					margin-bottom: 1.25em //20px
+					a
+						color: $gris_claro
+						font-size: 1em //16px
+						font-weight: bold
+						margin-right: 1.25em //20px
+						&:hover
+							color: $azul_primario
+							text-decoration: none
+	.posts,
+		.post
+			margin-bottom: 1.875em //30px
+			.contenedor
+				background: #fff
+				-webkit-box-shadow:  0px 0px 5px 0px rgba(0,0,0,0.3)
+				box-shadow:  0px 0px 5px 0px rgba(0,0,0,0.3)
+			&:nth-child(2n+1)
+				padding-left: 0
+			&:nth-child(2n)
+				padding-right: 0
+			.thumb
+				img
+					vertical-align: top
+					width: 100%
+					height: auto
+			.info
+				padding: 1.25em //20px
+				.titulo
+					line-height: 1.125em //18px
+					margin-bottom: 1.25em //20px
+					font-size: 1.125em //18px
+					a
+						color: $gris_oscuro
+				.fecha
+					color: $gris_claro
+					font-size: 0.875em //14px
+					margin-bottom: 1.25em //20px
+				.extracto
+					color: $texto
+					font-size: 1em //16px
+					height: 8.125em //130px
+					max-height: 8.125em //130px
+					line-height: 1.75em //28px
+					margin-bottom: 1.25em //20px
+					overflow: hidden
+					&:hover
+						overflow: auto
+				.categorias
+					ul
+						list-style: none
+						li
+							display: inline-block
+					a
+						color: $gris_claro
+						font-size: 1em //16px
+						font-weight: bold
+						margin-right: 1.25em //20px
+						&:hover
+							color: $azul_primario
+							text-decoration: none
+	.paginacion
+		> div
+			padding: 0
+		ul
+			list-style: none
+			overflow: hidden
+			margin-bottom: 1.25em //20px
+			font-size: 1em //16px
+			li
+				float: left
+				background: $gris_oscuro
+				color: #fff
+				margin-right: 0.62em //10px
+				font-size: 1.125em //18px
+				line-height: 1.125em //18px
+				&.disabled
+					padding: 0.62em 0.9375em //10px 15px
+					font-size: 1.125em //18px
+					line-height: 1.125em //18px
+				a
+					background: $azul_primario
+					color: #fff
+					line-height: 1.125em //18px
+					display: inline-block
+					padding: 0.62em 0.9375em //10px 15px
+					&:hover
+						background: $azul_secundario
+						text-decoration: none
+		// Estilos paga wp-page-navi
+		.wp-pagenavi
+			margin-bottom: 1.25em //20px
+			.pages,
+			span
+				background: $gris_oscuro
+				color: #fff
+				margin-right: 0.62em //10px
+				font-size: 1.125em //18px
+				line-height: 1.125em //18px
+				padding: 0.62em 0.9375em //10px 15px
+			a
+				background: $azul_primario
+				color: #fff
+				font-size: 1.125em //18px
+				display: inline-block
+				padding: 0.62em 0.9375em //10px 15px
+				margin-right: 0.62em //10px
+				&:hover
+					background: $azul_secundario
+					text-decoration: none
